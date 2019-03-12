@@ -6,13 +6,35 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+
+    <Button
+        android:id="@+id/start_animation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/start_animation"
+        android:onClick="startAnimation"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cancel_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel_animation"
+        android:onClick="cancelAnimation"
+        app:layout_constraintLeft_toRightOf="@id/start_animation"
+        app:layout_constraintTop_toTopOf="@id/start_animation" />
+
+    <TextView
+        android:id="@+id/text_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:padding="10dp"
+        android:text="Hello World!"
+        app:layout_constraintLeft_toLeftOf="@id/start_animation"
+        app:layout_constraintTop_toBottomOf="@id/start_animation" />
 
 </android.support.constraint.ConstraintLayout>
