@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startAnimation(View view) {
-        startActivity(new Intent(this,ScanAnimationActivity.class));
+        startActivity(new Intent(MainActivity.this,BaseTweenAnimationActivity.class));
     }
+
 }

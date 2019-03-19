@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/alpha_animation"
+        android:title="@string/alpha_animation" />
+
+    <item
+        android:id="@+id/rotate_animation"
+        android:title="@string/rotate_animation" />
+
+    <item
+        android:id="@+id/scale_animation"
+        android:title="@string/scale_animation" />
+
+    <item
+        android:id="@+id/translate_animation"
+        android:title="@string/translate_animation" />
+
+    <item
+        android:id="@+id/set_animation"
+        android:title="@string/set_animation" />
+</menu>
