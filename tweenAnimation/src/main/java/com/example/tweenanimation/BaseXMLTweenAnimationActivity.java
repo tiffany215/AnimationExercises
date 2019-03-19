@@ -9,7 +9,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
-public class BaseTweenAnimationActivity extends AppCompatActivity {
+public class BaseXMLTweenAnimationActivity extends AppCompatActivity {
 
     private Context mContext;
 
@@ -22,7 +22,7 @@ public class BaseTweenAnimationActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_base_tween_animation);
-        this.mContext = BaseTweenAnimationActivity.this;
+        this.mContext = BaseXMLTweenAnimationActivity.this;
         viewContent = findViewById(R.id.textView);
 
     }

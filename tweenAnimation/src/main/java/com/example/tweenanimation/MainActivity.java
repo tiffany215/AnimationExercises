@@ -14,7 +14,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startAnimation(View view) {
-        startActivity(new Intent(MainActivity.this,BaseTweenAnimationActivity.class));
+        startActivity(new Intent(MainActivity.this, BaseXMLTweenAnimationActivity.class));
     }
 
+    public void startCodeAnimation(View view) {
+        startActivity(new Intent(MainActivity.this, BaseCodeTweenAnimationActivity.class));
+    }
 }

@@ -5,4 +5,7 @@
     <string name="translate_animation">平移动画</string>
     <string name="scale_animation">缩放动画</string>
     <string name="set_animation">动画集合</string>
+
+    <string name="animation_xml_display">xml方式补间动画</string>
+    <string name="animation_code_display">代码方式补间动画</string>
 </resources>
