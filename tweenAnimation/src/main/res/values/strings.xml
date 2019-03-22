@@ -8,4 +8,21 @@
 
     <string name="animation_xml_display">xml方式补间动画</string>
     <string name="animation_code_display">代码方式补间动画</string>
+    <string name="animation_interpolator">动画差值器</string>
+    <string name="animation_instance">动画实例</string>
+
+
+    <string name="accelerate_interpolator">加速动画差值器</string>
+    <string name="decelerate_interpolator">减速动画差值器</string>
+    <string name="accelerate_decelerate_interpolator">加速减速动画差值器</string>
+    <string name="anticipate_interpolator">开始偏移动画差值器</string>
+    <string name="overshoot_interpolator">结束偏移动画差值器</string>
+    <string name="anticipate_overshoot_interpolator">开始结束偏移动画差值器</string>
+    <string name="bounce_interpolator">弹性动画差值器</string>
+    <string name="cycle_interpolator">循环动画差值器</string>
+
+
+    <string name="splash_scale">首页缩放动画</string>
+    <string name="scanner_animation">扫描动画</string>
+    <string name="loading_animation">加载动画</string>
 </resources>

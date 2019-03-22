@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/accelerate_interpolator"
+        android:title="@string/accelerate_interpolator" />
+    <item
+        android:id="@+id/accelerate_decelerate_interpolator"
+        android:title="@string/accelerate_decelerate_interpolator" />
+
+    <item
+        android:id="@+id/decelerate_interpolator"
+        android:title="@string/decelerate_interpolator" />
+
+    <item
+        android:id="@+id/anticipate_interpolator"
+        android:title="@string/anticipate_interpolator" />
+
+    <item
+        android:id="@+id/overshoot_interpolator"
+        android:title="@string/overshoot_interpolator" />
+    <item
+        android:id="@+id/anticipate_overshoot_interpolator"
+        android:title="@string/anticipate_overshoot_interpolator" />
+
+    <item
+        android:id="@+id/bounce_interpolator"
+        android:title="@string/bounce_interpolator" />
+
+    <item
+        android:id="@+id/cycle_interpolator"
+        android:title="@string/cycle_interpolator" />
+</menu>

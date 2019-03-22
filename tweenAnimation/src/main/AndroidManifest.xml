@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BaseCodeTweenAnimationActivity"></activity>
+        <activity android:name=".InstanceAnimationActivity"></activity>
+        <activity android:name=".TweenAnimationInterpolatorActivity" />
+        <activity android:name=".BaseCodeTweenAnimationActivity" />
         <activity android:name=".BaseXMLTweenAnimationActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

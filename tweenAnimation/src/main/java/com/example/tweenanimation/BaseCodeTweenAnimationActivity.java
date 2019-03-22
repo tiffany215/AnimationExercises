@@ -28,7 +28,7 @@ public class BaseCodeTweenAnimationActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.base_animtion_menu, menu);
+        getMenuInflater().inflate(R.menu.menu_base_animtion, menu);
         return true;
     }
 

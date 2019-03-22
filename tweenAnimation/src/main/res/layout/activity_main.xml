@@ -20,6 +20,7 @@
 
 
     <Button
+        android:id="@+id/tween_code_animation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/animation_code_display"
@@ -30,5 +31,30 @@
         android:layout_margin="10dp"
         app:layout_constraintTop_toBottomOf="@id/xml_animation"
          />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/animation_interpolator"
+        android:onClick="startInterpolatorAnimation"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@id/tween_code_animation"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/animation_instance"
+        android:onClick="startInstanceAnimation"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@id/tween_code_animation"
+        />
+
 
 </android.support.constraint.ConstraintLayout>

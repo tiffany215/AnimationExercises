@@ -20,4 +20,12 @@ public class MainActivity extends AppCompatActivity {
     public void startCodeAnimation(View view) {
         startActivity(new Intent(MainActivity.this, BaseCodeTweenAnimationActivity.class));
     }
+
+    public void startInterpolatorAnimation(View view) {
+        startActivity(new Intent(MainActivity.this, TweenAnimationInterpolatorActivity.class));
+    }
+
+    public void startInstanceAnimation(View view) {
+        startActivity(new Intent(MainActivity.this, InstanceAnimationActivity.class));
+    }
 }
