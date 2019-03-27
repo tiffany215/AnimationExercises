@@ -1,1 +1,1 @@
-include ':app', ':tweenAnimation'
+include ':app', ':tweenAnimation', ':frameAnimation'

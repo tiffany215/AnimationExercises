@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FrameAnimation</string>
+    <string name="xml_frame_anim">xml帧动画</string>
+    <string name="code_frame_anim">code帧动画</string>
+    <string name="stop_frame_anim">停止帧动画</string>
+    <string name="start_frame_anim">开始帧动画</string>
+</resources>
